@@ -1,0 +1,310 @@
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+  }
+.material-icons-outlined{
+    color: white;
+}
+body{
+    margin: 0px;
+    height: 1000px;
+    background-color:#DCDCDC;
+}
+nav{
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    padding-top:5px ;
+    padding-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 1;
+}
+.bar-left-side{
+    width: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 100px;
+}
+.bar_actions{
+    display: inline-block;
+}
+.bar_actions span{
+    margin-right: 25px;
+}
+.bar-right-side{
+    width: 350px;
+    margin-right: 120px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.bar-right-side span{
+    color: grey;
+}
+.search_bar{
+    display: flex;
+    background-color: white;
+    border-radius: 20px;
+    width: 320px;
+    padding: 5px;
+}
+.search_bar input{
+    border: none;
+    outline: none;   
+    width: 340px;
+    box-sizing: border-box;
+}
+.perfil{
+    border-radius: 100px;
+    margin-left: 25px;
+}
+.user{
+    position: relative;
+}
+.div{
+    position : absolute;
+    left: 15px;
+    top: 60px;
+    width: 95%;
+    border: 1px solid red;
+    background-color: white;
+    padding: 10px;
+}
+
+.opciones{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.estado{
+    width: 10px;
+    height: 10px;
+    background-color: green;
+    border-radius: 100px;
+    position: absolute;
+    right: -2px;
+    top: 5px;
+}
+.container{
+    display: flex;
+    width: 100%;
+    padding: 10px 4%;
+    margin-top: 50px;
+    height: 100vh;
+    box-sizing: border-box;
+}
+.left .material-icons-outlined, .More{
+    color: #1E90FF;
+}
+.contenedor{
+    position: fixed;
+}
+.left {
+    color: grey;
+    display: flex;
+    flex-direction: column;
+}
+.sections{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.sections .material-icons-outlined, .sections img{
+    margin-right: 15px;
+}
+.sections a{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.mid{
+    margin-left: 340px;
+    width: 600px;
+}
+.status{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.caja{
+    width: 100px;
+    height: 170px;
+    position: relative;
+}
+.profile{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.history_image{
+    position: absolute;
+    left: 35px;
+    bottom: 35px;
+}
+.caja span{
+    position: absolute;
+    left: 20px;
+    bottom: 10px;
+    color: white;
+}
+.pic{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    background-color: #1E90FF;
+    padding: 5px;
+    border-radius: 100px;
+}
+.share{
+    display: flex;
+    padding: 10px;
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+.share p{
+    margin: 0px;
+}
+.question{
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+.options{
+    display: flex;
+}
+.options div{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.info{
+    width: 90%;
+    color: grey;
+    margin-left: 5px;
+}
+.right{
+    margin-left: 15px;
+    width:300px;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: white;
+    position: fixed;
+    margin-left: 970px;
+}
+.title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.description{
+    display: flex;
+    margin-top: 15px;
+}
+.date{
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    background-color: white;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 0;
+}
+.month{
+    text-align: center;
+    width: 50px;
+    padding: 5px;
+    background-color: #1E90FF;
+    border-radius: 0px 0px 10px 10px;
+}
+.place{
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}   
+.advertisement{
+    margin-top: 15px;
+    text-align: center;
+}
+.chat{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.imagen{
+    position: relative;
+}
+.imagen img{
+    border-radius: 100px;
+    margin-right: 10px;
+}
+.punto{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(101, 234, 101);
+    border-radius: 100px;
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+}
+.publication{
+    padding: 20px;
+    background-color: white;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.head p,.izquierda p{
+    margin: 0px;
+}
+.izquierda{
+    display: flex;
+    align-items: center;
+}
+.information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.feet{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.reactions{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
